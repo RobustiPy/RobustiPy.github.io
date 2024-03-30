@@ -1,5 +1,5 @@
 title: RobustiPy
 logo: https://www.demography.ox.ac.uk/themes/custom/olamalu_leverhulme/images/branding/oxford.png
 description: A simple, minimal website for RobustiPy!
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
