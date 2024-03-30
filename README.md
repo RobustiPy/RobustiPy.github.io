@@ -1,8 +1,12 @@
-<center> [Note: This site (and project!) are a work in progress!]</center>
-
 ### Welcome to the **RobustiPy** homepage!
 
-RobustiPy is an efficient multiversal library with model selection, averaging, resampling and out-of-sample analysis. Developed for Python and R, it is designed to be both accessible and computationally efficient. Installation is as simple (in Python) as:
+
+RobustiPy is an efficient multiversal library with model selection, averaging, resampling and out-of-sample analysis. Developed for Python and R, it is designed to be both accessible and computationally efficient.
+
+<center> <span style="color:darkred;">Note: This site (and project!) are a work in progress!</span> </center>
+
+#### Installation
+Installation is as simple (in Python) as:
 
 ```bash
 pip install robustipy
@@ -20,7 +24,14 @@ A series of toy examples with which might be useful to get you up and running ca
 
 #### Hackathon
 
+We are holding a hackathon regarding RobustiPy in Oxford during June 2024. Participants can click [here](./hackathon.html) for further information on the day's activities!
+
 #### Contributing
+We welcome contributions (or matters arising, suggestions for features, or bug alerts!) from anybody and everybody interested in our work! Please raise all issues on GitHub.
+
+#### License
+
+This work is made available under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 #### Who
 
@@ -29,7 +40,9 @@ Robustipy is developed and maintained by [Daniel Valdenegro Ibarra](dhvalden), [
 #### Thanks!
 
   The authors are grateful to comments on earlier versions of the work from participants at an LCDS Internal Meeting, the Centre for Care, and participants at the IC2S2 conference. Funding gratefully received funding from the ESRC Centre for Care, and the Leverhulme Trust (Grant RC-2018-003), the Leverhulme Centre for Demographic Science (LCDS), and Nuffield College.
-  
+<br>
+<br>
+
 
 <div style="display: flex; justify-content: space-between;">
     <img src="assets/cfc_logo.png" alt="CfC" style="width: 250px; height: auto;">
