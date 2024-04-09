@@ -36,6 +36,6 @@ We're grateful to comments from participants at an LCDS Internal Meeting, the Ce
 
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="assets/cfc_logo.png" alt="CfC" style="width: 200px; height: auto;">
-    <img src="assets/lcds_logo.png" alt="LCDS" style="width: 300px; height: auto;">
+    <img src="assets/cfc_logo.png" alt="CfC" style="width: 200px; height: auto; margin-right: 20px;">
+    <img src="assets/lcds_logo.png" alt="LCDS" style="width: 280px; height: auto;">
 </div>
