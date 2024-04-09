@@ -4,7 +4,7 @@ layout: default
 
 ### Hackathon
 
-We are planning a hackathon to be held from 12:30pm at Said Business School. Directions on how to get there can be found [here](https://www.sbs.ox.ac.uk/about-us/venue-hire/organiser-and-delegate-information/directions-park-end-street).
+We are planning a hackathon to be held from 12:30pm on the 27th of June at Said Business School. Directions on how to get there can be found [here](https://www.sbs.ox.ac.uk/about-us/venue-hire/organiser-and-delegate-information/directions-park-end-street).
 
 A rough schedule of events for the day is as follows:
 
