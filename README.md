@@ -1,6 +1,5 @@
 ### Welcome to the **RobustiPy** homepage!
 
-
 RobustiPy is an efficient multiversal library with model selection, averaging, resampling and out-of-sample analysis. Developed for Python and R, it is designed to be both accessible and computationally efficient.
 
 <center> <span style="color:red;">Note: This site (and project!) are a work in progress!</span> </center>
@@ -37,6 +36,6 @@ We're grateful to comments from participants at an LCDS Internal Meeting, the Ce
 
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="assets/cfc_logo.png" alt="CfC" style="width: 250px; height: auto;">
+    <img src="assets/cfc_logo.png" alt="CfC" style="width: 200px; height: auto;">
     <img src="assets/lcds_logo.png" alt="LCDS" style="width: 300px; height: auto;">
 </div>
