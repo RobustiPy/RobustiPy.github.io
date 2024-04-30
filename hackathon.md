@@ -20,4 +20,3 @@ A rough schedule of events for the day is as follows:
 - **20:00** - To the pub for further discussions!
 
 Further information on pre-arrival tasks, reading, and otherwise will be provided in due course / as appropriate!
-wise will be provided in due course / as appropriate!
