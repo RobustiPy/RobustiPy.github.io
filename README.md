@@ -1,6 +1,6 @@
 ### Welcome to the **RobustiPy** homepage!
 
-RobustiPy is an efficient multiversal library with model selection, averaging, resampling and out-of-sample analysis. Developed for Python and R, it is designed to be both accessible and computationally efficient.
+RobustiPy is an efficient multiversal library with model selection, averaging, resampling and out-of-sample analysis. It analyses various output spaces, in addition to the control variable space (e.g. multiple dependent variables, estimands of interest, etc). Developed for Python and R, it is designed to be both accessible and computationally efficient.
 
 <center> <span style="color:red;">Note: This site (and project!) are a work in progress!</span> </center>
 <br>
