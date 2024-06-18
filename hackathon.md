@@ -10,7 +10,7 @@ A rough schedule of events for the day is as follows:
 
 - **12:30** - Tea and coffee on arrival with a drop-in session for installing RobustiPy
 - **13:00** - Introducing RobustiPy
-- **13:30** - Robustify in action (we provide some empirical and simulated examples)
+- **13:30** - RobustiPy in action (we provide some empirical and simulated examples)
 - **14:15** - Pizzas!
 - **14:45** - Bring Your Own Dataset or work as a team to test your data and (try to break!) RobustiPy!
 - **15:45** - Take a break and make a slide or two to present back to the group.
