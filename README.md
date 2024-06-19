@@ -12,7 +12,7 @@ Installation is as simple (in Python) as:
 pip install robustipy
 ```
 
-and (in R) as:
+and -- potentially in the future for R -- as:
 
 ```R
 install.packages("robustipy")
