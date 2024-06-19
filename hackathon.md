@@ -28,4 +28,4 @@ We would also kindly request registrants to consider reading the three papers li
 
 Finally, you should be able to find some slides relating to the day [here](https://robustipy.github.io/slides/robustipy_hackathon.pdf). This single slide deck contains administrative information, acts as the 'handout' for all sessions, and contains all other general information that you should reasonably need _on the day_ (including links to resources, slides, etc). It's currently holding a placeholder, but this will be updated and replaced on the morning of 27.06.2024.
 
-We look forward to seeing you there!
+We look forward to seeing you there!!
