@@ -4,6 +4,8 @@ RobustiPy is an efficient multiversal library with bootstrapping, model selectio
 
 <center> <span style="color:red;">Note: This site (and project!) are a work in progress!</span> </center>
 
+<br>
+
 **Installation**: Installation is as simple (in Python) as:
 
 ```bash
