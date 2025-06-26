@@ -2,22 +2,22 @@
 
 RobustiPy is an efficient multiversal library with bootstrapping, model selection, averaging, resampling, in-and-out-of-sample analysis (/explainable AI), and joint inference tests. It analyses various output spaces, in addition to the control variable space (e.g. multiple dependent variables, estimands of interest, etc). Developed for Python, it is designed to be both accessible and computationally efficient.
 
-<center> <span style="color:red;">Note: This site (and project!) are a work in progress!</span> </center>
+<center> <span style="color:red;">Note: RobustiPy has just been released out of beta!</span> </center>
 
 <br>
 
 **Installation**: Installation is as simple (in Python) as:
 
 ```bash
+pip install robustipy
+```
+
+for stable development releases. If you wanted to try our early-in-progress work, simply:
+
+```bash
 git clone https://github.com/RobustiPy/robustipy.git
 cd robustipy
 pip install .
-```
-
-and -- as we get towards more stable releases -- as:
-
-```bash
-pip install robustipy
 ```
 
 **Examples:** A series of simulated examples which might be useful to get you up and running can be found [here](https://github.com/RobustiPy/robustipy/tree/main/simulated_examples). A series of empirical examples which might be useful can be found [here](https://github.com/RobustiPy/robustipy/tree/main/empirical_examples).
