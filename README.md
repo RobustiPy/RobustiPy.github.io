@@ -38,9 +38,9 @@ pip install .
 
 **License:** This work is made available under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-**Who:** RobustiPy is developed and maintained by [Daniel Valdenegro Ibarra](https://github.com/dhvalden), [Charles Rahal](https://github.com/crahal), and [Jiani Yan](https://github.com/vallerrr) at the [Leverhulme Centre for Demographic Science](https://www.demography.ox.ac.uk/) and the [Centre for Care](https://centreforcare.ac.uk/). Comms and administrative support gratefully recieved from [Bradley Hall-Smith](https://www.demography.ox.ac.uk/people/bradley-hall-smith), [Hannah Calkin](https://www.ndph.ox.ac.uk/team/hannah-calkin) and [Dan Williamson](https://centreforcare.ac.uk/team/dan-williamson/).
+**Who:** RobustiPy is developed and maintained by [Daniel Valdenegro Ibarra](https://github.com/dhvalden), [Charles Rahal](https://github.com/crahal), [Duiyi Dai](https://duiyidai.github.io/), and [Jiani Yan](https://github.com/vallerrr). Comms and administrative support gratefully recieved from [Bradley Hall-Smith](https://www.demography.ox.ac.uk/people/bradley-hall-smith), [Hannah Calkin](https://www.ndph.ox.ac.uk/team/hannah-calkin) and [Dan Williamson](https://centreforcare.ac.uk/team/dan-williamson/).
 
-**Thanks!:** We're grateful to comments from participants at an LCDS Internal Meeting, the Centre for Care, IC2S2 (2023), PAA (2024), and the PSI Software Engineering Group. Funding gratefully received funding from the ESRC (Centre for Care), and the Leverhulme Trust (Grant RC-2018-003), the Leverhulme Centre for Demographic Science (LCDS), and Nuffield College.
+**Thanks!:** We're grateful to comments from participants at an LCDS Internal Meeting, the Centre for Care, IC2S2 (2023), PAA (2024), and the PSI Software Engineering Group. Funding gratefully received from the ESRC (Centre for Care), and the Leverhulme Trust (Grant RC-2018-003), the Leverhulme Centre for Demographic Science (LCDS), and Nuffield College.
 <br>
 <br>
 
