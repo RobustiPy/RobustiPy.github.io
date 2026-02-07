@@ -24,6 +24,8 @@ pip install .
 
 **Figure Interpretation:** A concise, subfigure-by-subfigure guide for reading the standard Robustify results panel can be found [here](interpretation-guide.html).
 
+**Intro Video:** A short video introducing RobustiPy’s main functionalities and how to interpret its outputs can be found [here](intro-video.html).
+
 **Examples:** A series of simulated examples which might be useful to get you up and running can be found [here](https://github.com/RobustiPy/robustipy/tree/main/simulated_examples). A series of empirical examples which might be useful can be found [here](https://github.com/RobustiPy/robustipy/tree/main/empirical_examples).
 
 **Hackathon:** We held a hackathon regarding RobustiPy in Oxford during June 2024. Thanks so very much for everyone who came along, and those who helped out in general!
