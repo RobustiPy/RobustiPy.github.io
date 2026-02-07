@@ -3,7 +3,7 @@ layout: default
 title: Figure Interpretation Guide
 ---
 
-# Robustify Figure Interpretation Guide
+# RobustiPy Figure Interpretation Guide
 
 > A concise, subfigure-by-subfigure guide for reading the standard Robustify results panel.
 
