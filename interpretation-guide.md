@@ -9,7 +9,7 @@ title: Figure Interpretation Guide
 
 ## Figure
 
-![Robustify results panel](./figures/union_example/union_example_all.svg)
+![Robustify results panel](https://github.com/RobustiPy/robustipy/blob/main/figures/union_example/union_example_all.png)
 
 ---
 
