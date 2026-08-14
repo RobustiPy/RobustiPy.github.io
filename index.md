@@ -134,11 +134,12 @@ home: true
       <div class="paper-actions">
         <a class="button button-dark" href="https://www.cell.com/patterns/fulltext/S2666-3899(26)00118-2">Read the full text</a>
         <a class="button button-outline" href="https://doi.org/10.1016/j.patter.2026.101609">Open the DOI</a>
+        <a class="button button-outline" href="#how-to-cite">How to cite</a>
       </div>
     </div>
 
-    <aside class="citation-card" aria-label="Paper citation">
-      <p class="citation-label">Cite the paper</p>
+    <aside class="citation-card" aria-labelledby="how-to-cite">
+      <h3 class="citation-label" id="how-to-cite">How to cite</h3>
       <p class="citation-text"><strong>Valdenegro, D., Yan, J., Dai, D., &amp; Rahal, C.</strong> (2026). RobustiPy: An efficient next-generation multiversal library with model selection, averaging, resampling, and explainable AI. <em>Patterns, 7</em>, 101609. <a href="https://doi.org/10.1016/j.patter.2026.101609">https://doi.org/10.1016/j.patter.2026.101609</a></p>
       <p class="paper-evidence">The paper reports five simulations, ten empirical replications, and a time-profiling benchmark spanning approximately 672 million regression-equivalent fits.</p>
       <details class="citation-details">
@@ -203,14 +204,14 @@ home: true
       </a>
     </div>
 
-    <aside class="hackathon-callout" aria-labelledby="hackathon-title">
+    <aside class="hackathon-note" aria-labelledby="hackathon-title">
+      <p class="hackathon-date">Oxford · June 2024</p>
       <div>
-        <p class="hackathon-date">Oxford · June 2024</p>
         <h3 id="hackathon-title">RobustiPy Hackathon</h3>
-        <p>The team hosted a hands-on hackathon at the University of Oxford, bringing researchers together to explore the library and work through multiverse analyses.</p>
+        <p>The team hosted a hands-on hackathon at the University of Oxford, bringing researchers together to explore the library and work through multiverse analyses. We thank everyone who participated and contributed their time, questions, and feedback.</p>
       </div>
-      <a class="button button-primary" href="{{ '/slides/robustipy_hackathon.pdf' | relative_url }}">View hackathon slides (PDF)</a>
     </aside>
+
   </div>
 </section>
 
