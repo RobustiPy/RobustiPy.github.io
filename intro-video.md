@@ -1,19 +1,22 @@
 ---
 layout: default
-title: Intro Video
+title: Introduction to RobustiPy
+description: A concise video introduction to RobustiPy's core workflow and results.
 ---
 
-# RobustiPy Intro Video
+# Introduction to RobustiPy
 
-> A short video introducing RobustiPy’s main functionalities and how to interpret its outputs.
+> A concise introduction to RobustiPy's core workflow and guidance for interpreting its output.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+<div class="video-embed">
   <iframe
     src="https://www.youtube.com/embed/sNWzQ6NucYc"
-    title="RobustiPy intro video"
-    frameborder="0"
+    title="Introduction to RobustiPy video"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
   ></iframe>
 </div>
+
+[Watch more RobustiPy tutorials on YouTube](https://www.youtube.com/@RobustiPy).

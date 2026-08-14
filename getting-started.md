@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Getting Started
+description: Install RobustiPy, run a first robustness analysis, manage computation, and work with the resulting output.
 ---
 
 # Getting Started with RobustiPy
 
-> A practical, end‑to‑end guide for fitting robust specifications, managing compute, and interpreting outputs.
+> A practical, end-to-end guide to fitting robust specifications, managing computational workloads, and interpreting results.
 
 ---
 
@@ -40,6 +41,7 @@ pip install .
 RobustiPy expects a tidy `pandas.DataFrame` where each column corresponds to a variable.
 
 Recommendations:
+
 - Make sure your `y`, `x`, and `controls` columns are numeric or properly encoded.
 - Handle missing values in advance (drop, impute, or encode).
 - Keep a small subset of rows for quick smoke tests before scaling up.
@@ -189,7 +191,7 @@ results.plot(specs=specs, ic="hqic")
 
 ## Common Pitfalls
 
-- The x‑axis in the spec curve is **rank‑ordered**, not time.
+- The x-axis in the specification curve is **rank-ordered**, not time.
 - Cross‑validation requires `oos_metric`.
 - Large control sets can explode the spec space. Use sampling parameters early.
 - If you change colormap or highlights, verify the legend colors line up across panels.
@@ -198,5 +200,6 @@ results.plot(specs=specs, ic="hqic")
 
 ## Next Steps
 
-- For a full subfigure‑by‑subfigure interpretation, read **`INTERPRETATION_GUIDE.MD`**.
-- Browse the empirical example notebooks on GitHub: [empirical_examples](https://github.com/RobustiPy/robustipy/tree/main/empirical_examples)
+- Learn how to read each results panel in the [RobustiPy figure interpretation guide](interpretation-guide.html).
+- Explore the [empirical example notebooks on GitHub](https://github.com/RobustiPy/robustipy/tree/main/empirical_examples).
+- Consult the [full RobustiPy documentation](https://robustipy.readthedocs.io/en/latest/) for detailed reference material.

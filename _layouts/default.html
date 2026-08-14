@@ -1,58 +1,76 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-GB' }}">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
+    <meta name="theme-color" content="#062a52">
+    <meta name="color-scheme" content="light">
+    {% seo %}
+    <link rel="icon" href="{{ '/assets/robustipy_mark.png' | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ '/assets/robustipy_mark.png' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% if page.home %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "name": "RobustiPy",
+        "description": {{ site.description | jsonify }},
+        "codeRepository": "https://github.com/RobustiPy/robustipy",
+        "programmingLanguage": "Python",
+        "license": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+        "url": "{{ site.url }}{{ site.baseurl }}/",
+        "citation": "https://doi.org/10.1016/j.patter.2026.101609"
+      }
+    </script>
+    {% endif %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div style="text-align: center;">
-        <div>
-          {% if site.logo %}
-            <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
-          {% endif %}
-        </div>
+  <body class="{% if page.home %}home-page{% else %}content-page{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-        <br>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="RobustiPy home">
+          <img src="{{ site.logo | relative_url }}" alt="RobustiPy" width="1384" height="320">
+        </a>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
-        <p class="view"><a href="https://github.com/RobustiPy/robustipy">View the Project on GitHub here! <small>{{ github.com/RobustiPy }}</small></a></p>
-        
-        <p class="view"><a href="https://robustipy.readthedocs.io/en/latest/">View the Python Documentation here! <small>{{ docs.readthedocs.io }}</small></a></p>
-        
-        <p class="view"><a href="https://arxiv.org/abs/2506.19958">View the RobustiPy working paper here! <small>{{ arxiv.org/abs/2506.19958 }}</small></a></p>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a href="{{ '/getting-started.html' | relative_url }}"{% if page.url == '/getting-started.html' %} aria-current="page"{% endif %}>Get started</a>
+          <a href="{{ '/interpretation-guide.html' | relative_url }}"{% if page.url == '/interpretation-guide.html' %} aria-current="page"{% endif %}>Interpret results</a>
+          <a href="https://www.cell.com/patterns/fulltext/S2666-3899(26)00118-2">Paper</a>
+          <a href="https://robustipy.readthedocs.io/en/latest/">Docs</a>
+          <a class="nav-github" href="https://github.com/RobustiPy/robustipy">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.1.79-.25.79-.56v-2.23c-3.23.7-3.91-1.37-3.91-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.74-1.55-2.58-.29-5.29-1.29-5.29-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.75 0C17.03 4.99 18 5.3 18 5.3c.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.72 5.39-5.3 5.68.42.36.79 1.06.79 2.14v3.27c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
+            GitHub
+          </a>
+        </nav>
+      </div>
+    </header>
 
-        <p class="view"><a href="https://www.youtube.com/@RobustiPy">Check out tutorials and other videos about RobustiPy here! <small>{{ https://www.youtube.com/@RobustiPy }}</small></a></p>
-        {% if site.show_downloads %}
-
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
-      <section>
-
+    <main id="main-content" class="site-main{% unless page.home %} shell prose-shell{% endunless %}">
       {{ content }}
+    </main>
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-intro">
+          <a class="footer-brand" href="{{ '/' | relative_url }}">RobustiPy</a>
+          <p>Open-source tools for systematic robustness analysis.</p>
+        </div>
+        <div class="footer-links" aria-label="Project links">
+          <a href="https://www.cell.com/patterns/fulltext/S2666-3899(26)00118-2">Paper</a>
+          <a href="https://robustipy.readthedocs.io/en/latest/">Documentation</a>
+          <a href="https://pypi.org/project/robustipy/">PyPI</a>
+          <a href="https://github.com/RobustiPy/robustipy">GitHub</a>
+        </div>
+        <div class="footer-meta">
+          <p>Software released under the <a href="https://github.com/RobustiPy/robustipy/blob/main/LICENSE">GNU GPL v3.0</a>.</p>
+          <p>&copy; 2026 RobustiPy contributors.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

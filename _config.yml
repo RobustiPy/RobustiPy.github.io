@@ -1,5 +1,33 @@
 title: RobustiPy
-logo: assets/robustipy_logo_transparent_large_trimmed.png
-description: A simple, minimal website for RobustiPy!
-show_downloads: false
+tagline: Systematic robustness analysis in Python
+description: An open-source Python library for multiverse analysis and model uncertainty assessment.
+url: https://robustipy.github.io
+baseurl: ""
+lang: en-GB
+logo: /assets/robustipy_logo_transparent_large_trimmed.png
 theme: jekyll-theme-minimal
+show_downloads: false
+
+author:
+  name: RobustiPy contributors
+
+social:
+  name: RobustiPy
+  links:
+    - https://github.com/RobustiPy/robustipy
+    - https://www.youtube.com/@RobustiPy
+
+twitter:
+  card: summary_large_image
+
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+exclude:
+  - .idea
+  - Gemfile
+  - Gemfile.lock
+  - vendor
